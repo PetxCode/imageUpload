@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { ImagePickerFile } from './component/ImagePicker';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>We are ready now!!!</Text>
+      <ImagePickerFile/>
       <StatusBar style="auto" />
     </View>
   );
